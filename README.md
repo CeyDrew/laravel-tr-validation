@@ -23,7 +23,7 @@ $request->validate([
 composer require ceydrew/laravel-tr-validation
 ```
 
-Requires PHP 8.2+ and Laravel 11, 12 or 13. The service provider is registered automatically.
+Requires PHP 8.2+ and Laravel 12 or 13. The service provider is registered automatically.
 
 ## Rules
 
@@ -114,7 +114,7 @@ composer install
 composer test
 ```
 
-The suite covers each rule with valid and invalid examples, 1,000 generated TCKN/VKN numbers, string rules and rule objects through Laravel's validator, locale-aware messages and app-level overrides. CI runs on PHP 8.2–8.4 with Laravel 11, 12 and 13.
+The suite covers each rule with valid and invalid examples, 1,000 generated TCKN/VKN numbers, string rules and rule objects through Laravel's validator, locale-aware messages and app-level overrides. CI runs on PHP 8.2–8.4 with Laravel 12 and 13.
 
 ## License
 
